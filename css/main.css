@@ -22,13 +22,13 @@ body {
 }
 
 .img-flex {
-  display: inline-block;
+  display: block;
+  width: 100%;
 }
 
 img {
   width: 100%;
   display: block;
-  margin;
 }
 
 .card {
@@ -38,26 +38,27 @@ img {
 }
 
 h1 {
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
 }
 
 section {
   background-color: #e2e2e2;
+  vertical-align: middle;
 }
 
 section p {
   margin: 0 0 .5em 0;
 }
 
-.btn {
+a {
   color: #fff;
-  background-color: #333;
+  background-color: #555;
   font-size: 1.125rem;
   text-decoration: none;
   margin: 5px;
   padding: .45em;
   border: 3px solid #333;
-  border-radius: 8px;
+  border-radius: 4px;
   border-width: 3px;
   display: inline-block;
 }
@@ -76,6 +77,10 @@ section p {
 
   html {
     font-size: 110%;
+  }
+
+  h1 {
+    margin-top: 0.5rem;
   }
 
 }
@@ -101,6 +106,7 @@ section p {
 
   .img-flex {
     max-width: 49%;
+    display: inline-block;
   }
 
 }
@@ -118,6 +124,20 @@ section p {
 
   html {
     font-size: 130%;
+  }
+
+  section {
+    text-align: center;
+    margin: auto;
+  }
+
+  .img-flex {
+    max-width: 550px;
+  }
+
+  .card {
+    text-align: left;
+    max-width: 400px;
   }
 
 }
